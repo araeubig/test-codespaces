@@ -90,9 +90,9 @@ if echo "$site_exist_check_output" | grep -Eq "(Site .* not found)|(The site you
       --path=/wp \
       --url="$wp_url" \
       --title="$wp_title" \
-      --admin_user="vipgo" \
-      --admin_email="vip@localhost.local" \
-      --admin_password="password" \
+      --admin_user="admin" \
+      --admin_email="admin@localhost.local" \
+      --admin_password="123456" \
       --skip-email \
       --skip-plugins \
       ${type} \
@@ -102,9 +102,9 @@ if echo "$site_exist_check_output" | grep -Eq "(Site .* not found)|(The site you
       --path=/wp \
       --url="$wp_url" \
       --title="$wp_title" \
-      --admin_user="vipgo" \
-      --admin_email="vip@localhost.local" \
-      --admin_password="password" \
+      --admin_user="admin" \
+      --admin_email="admin@localhost.local" \
+      --admin_password="123456" \
       --skip-email \
       --skip-plugins
   fi
