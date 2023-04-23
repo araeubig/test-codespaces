@@ -73,9 +73,9 @@ RUN wget -O /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh
 RUN wp core download --path=/wp --skip-content
 
 # VIP Go mu-plugins
-RUN \
-    git clone --depth=1 https://github.com/Automattic/vip-go-mu-plugins-built.git /wp/wp-content/mu-plugins && \
-    rm -rf /wp/wp-content/mu-plugins/.git
+# RUN \
+#     git clone --depth=1 https://github.com/Automattic/vip-go-mu-plugins-built.git /wp/wp-content/mu-plugins && \
+#     rm -rf /wp/wp-content/mu-plugins/.git
 
 # nginx
 RUN \
